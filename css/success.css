@@ -69,6 +69,10 @@ body {
     background-color: hsl(234, 29%, 20%);
     cursor: pointer;
 }
+#email-add{
+    color: hsl(234, 29%, 20%);
+    font-weight: 700;
+}
 
 .container button:hover {
     background-color: hsl(4, 100%, 67%);

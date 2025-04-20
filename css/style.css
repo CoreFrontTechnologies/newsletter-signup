@@ -68,13 +68,16 @@ body {
 
 .right-content {
     flex: 50%;
-    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
 }
 
-.right-content picture {
-    padding: 25px;
-    height: 300px;
-
+.right-content img {
+    width: 100%;
+    height: 100%;
+    padding-right: 20px;
 }
 
 .form {
@@ -173,15 +176,15 @@ body {
 
     .right-content {
         flex: 60%;
-        width: 70%;
+        width: 100%;
         position: relative;
     }
 
-    .right-content picture {
+    .right-content img {
         margin: 0;
         padding: 0;
         padding-left: 0px;
-        width: 40%;
+        width: 100%;
         height: 100%;
     }
 }
